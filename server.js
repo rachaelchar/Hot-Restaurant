@@ -18,13 +18,13 @@ const waitlist = [];
 
 // ===== ROUTING ======
 app.get("/home", (req, res) => {
-    res.sendFile(path.join(__dirname, "home.html"));
+    res.sendFile(path.join(__dirname, "html/home.html"));
 });
 
 app.get("/reserve", (req, res) => {
-    res.sendFile(path.join(__dirname, "reserve.html"));
+    res.sendFile(path.join(__dirname, "html/reserve.html"));
 });
 
 app.get("/tables", (req, res) => {
-    res.sendFile(path.join(__dirname, "tables.html"));
+    res.sendFile(path.join(__dirname, "html/tables.html"));
 });
